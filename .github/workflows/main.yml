@@ -1,9 +1,10 @@
 name: NSE Bot
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
-  workflow_dispatch:        # manual run button
+  push:
+   branches:
+    - main
+    
 
 jobs:
   run-bot:
