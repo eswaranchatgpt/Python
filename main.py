@@ -6,6 +6,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"status": "NSE Bot running"}
+    
 
 @app.get("/run")
 def run_bot():
