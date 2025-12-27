@@ -46,3 +46,4 @@ def send_telegram(text):
         "text": text
     })
 
+
